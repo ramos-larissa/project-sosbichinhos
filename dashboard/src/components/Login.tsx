@@ -1,6 +1,7 @@
 import React from "react";
 import { LockClosedIcon } from "@heroicons/react/20/solid";
-import  Link  from "next/link"
+import Link from "next/link";
+import Footer from "./Footer";
 
 const Login = () => {
   return (
@@ -102,6 +103,7 @@ const Login = () => {
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
