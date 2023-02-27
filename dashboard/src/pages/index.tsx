@@ -1,4 +1,5 @@
 import { LockClosedIcon } from "@heroicons/react/20/solid";
+import  Link  from "next/link"
 
 export default function Home() {
   return (
@@ -16,12 +17,12 @@ export default function Home() {
             </h2>
             <p className="mt-2 text-center text-sm text-gray-600">
               Or{" "}
-              <a
+              <Link
                 href="#"
                 className="font-medium text-indigo-600 hover:text-indigo-500"
               >
                 contact support to create an account
-              </a>
+              </Link>
             </p>
           </div>
           <form className="mt-8 space-y-6" action="#" method="POST">
@@ -74,12 +75,12 @@ export default function Home() {
               </div>
 
               <div className="text-sm">
-                <a
+                <Link
                   href="#"
                   className="font-medium text-indigo-600 hover:text-indigo-500"
                 >
                   Forgot your password?
-                </a>
+                </Link>
               </div>
             </div>
 
