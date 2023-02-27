@@ -34,15 +34,15 @@ const Footer = () => {
           </div>
         </nav>
         <div className="flex justify-center mt-8 space-x-6">
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="https://www.linkedin.com/in/lsramos95/" target={"_blank"} className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">Linkedin</span>
             <BsLinkedin size={"1.5rem"} />{" "}
           </a>
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="https://github.com/ramos-larissa" target={"_blank"} className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">GitHub</span>
             <BsGithub size={"1.5rem"} />
           </a>
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="https://www.instagram.com/pandinhalsr/" target={"_blank"} className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">Instagram</span>
             <BsInstagram size={"1.5rem"} />
           </a>
