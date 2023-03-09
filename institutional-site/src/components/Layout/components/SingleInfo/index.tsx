@@ -9,7 +9,7 @@ type SingleInfo = {
 
 function SingleInfo({ alt, imageSrc, infoText }: SingleInfo) {
   return (
-    <div className='flex gap-1 items-center'>
+    <div className='flex gap-1 lg:gap-5 items-center'>
       <div>
         <Image src={imageSrc} alt={alt} />
       </div>
