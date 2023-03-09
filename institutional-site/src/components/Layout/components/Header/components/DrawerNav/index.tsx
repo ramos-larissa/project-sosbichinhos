@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import PhoneSVG from '../../../../../../../public/phone-call-1.svg'
+import SingleInfo from '../../../SingleInfo'
 import { DrawerTypes } from '../typings/typings'
 
 function NavDrawer({ isDrawerOpen, setIsDrawerOpen }: DrawerTypes) {
@@ -18,14 +19,7 @@ function NavDrawer({ isDrawerOpen, setIsDrawerOpen }: DrawerTypes) {
             ))
           }
         </div>
-        <div className='flex gap-6'>
-          <div>
-            <Image src={PhoneSVG} alt="" />
-          </div>
-          <div>
-            <p className='text-sm font-medium'>+996221002723</p>
-          </div>
-        </div>
+        <SingleInfo alt='phone-icon' imageSrc={PhoneSVG} infoText='+996221002723' />
       </section>
       <section className={`bg-black w-screen h-screen transition-all ${isDrawerOpen ? "opacity-25" : "opacity-0"}`} onClick={() => setIsDrawerOpen(false)} />
     </nav>

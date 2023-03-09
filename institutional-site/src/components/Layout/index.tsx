@@ -1,4 +1,5 @@
 import React, { ReactNode } from 'react'
+import Footer from './components/Footer'
 import Header from './components/Header'
 
 type Layout = {
@@ -9,10 +10,10 @@ function Layout({ children }: Layout) {
   return (
     <div className='bg-gradient-to-br from-[#FFFF00] to-[#BC8700]'>
       <Header />
-      <main>
+      <main className='h-screen'>
         {children}
       </main>
-      <footer>footer goes here</footer>
+      <Footer />
     </div>
   )
 }

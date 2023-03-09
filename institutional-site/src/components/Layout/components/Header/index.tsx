@@ -7,11 +7,11 @@ import Logo from '../../../../../public/logo.svg'
 function Header() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
   return (
-    <header className='flex items-center justify-between p-5 relative'>
+    <header className='w-full flex items-center justify-between p-5 relative'>
       <section>
         <DrawerButton isDrawerOpen={isDrawerOpen} setIsDrawerOpen={setIsDrawerOpen} />
       </section>
-      <section className='mx-auto flex gap-5 items-center'>
+      <section className='mx-auto flex gap-2 items-center'>
         <div className='w-12 h-11 relative'>
           <Image src={Logo} alt='sos-logo' width={48} height={44}/>
         </div>
