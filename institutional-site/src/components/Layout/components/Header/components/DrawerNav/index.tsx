@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import PhoneSVG from '../../../../../public/phone-call-1.svg'
+import PhoneSVG from '../../../../../../../public/phone-call-1.svg'
 import { DrawerTypes } from '../typings/typings'
 
 function NavDrawer({ isDrawerOpen, setIsDrawerOpen }: DrawerTypes) {

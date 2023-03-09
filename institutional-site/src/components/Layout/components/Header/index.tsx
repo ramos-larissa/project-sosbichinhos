@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import DrawerButton from './components/DrawerButton'
 import NavDrawer from './components/DrawerNav'
-import Logo from '../../../public/logo.svg'
+import Logo from '../../../../../public/logo.svg'
 
 function Header() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
