@@ -9,9 +9,9 @@ function Layout({ children }: Layout) {
     return (
         <>
             <Header />
-            <body>
+            <main>
                 {children}
-            </body>
+            </main>
             <footer>footer goes here</footer>
         </>
     )
